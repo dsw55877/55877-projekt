@@ -811,7 +811,7 @@
                     "name": "WASD",
                     "id": "9e497c1a-add0-4870-9e6e-e51b4b24d312",
                     "path": "Dpad",
-                    "interactions": "",
+                    "interactions": "Hold",
                     "processors": "",
                     "groups": "",
                     "action": "move",
