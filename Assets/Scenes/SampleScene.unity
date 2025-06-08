@@ -25626,14 +25626,56 @@ PrefabInstance:
       value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7252883618974181384, guid: b2ca36b639900de49886ea6e60104064, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"patrol
+        speed","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"current
+        index","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"pathpoints","value":{"$content":[{"name":"point
+        0","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A","$type":"Unity.VisualScripting.VariableDeclaration"},{"name":"point
+        1 ","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A","$type":"Unity.VisualScripting.VariableDeclaration"},null],"$type":"System.Collections.Generic.List`1[[System.Object,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.Object,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7252883618974181384, guid: b2ca36b639900de49886ea6e60104064, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7252883618974181384, guid: b2ca36b639900de49886ea6e60104064, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 2081659354}
+    - target: {fileID: 7252883618974181384, guid: b2ca36b639900de49886ea6e60104064, type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 7971444569661565409}
+    - target: {fileID: 7252883618974181384, guid: b2ca36b639900de49886ea6e60104064, type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 7971444569661565408}
+    - target: {fileID: 8335113022891083703, guid: b2ca36b639900de49886ea6e60104064, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.28866667
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2ca36b639900de49886ea6e60104064, type: 3}
+--- !u!1 &7971444569661565408 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4807222306256485324, guid: b2ca36b639900de49886ea6e60104064, type: 3}
+  m_PrefabInstance: {fileID: 7971444569661565407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7971444569661565409 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7373726450667753493, guid: b2ca36b639900de49886ea6e60104064, type: 3}
+  m_PrefabInstance: {fileID: 7971444569661565407}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
