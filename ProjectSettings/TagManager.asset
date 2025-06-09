@@ -6,7 +6,7 @@ TagManager:
   tags:
   - player
   - point 1
-  - DES
+  - coin
   layers:
   - Default
   - TransparentFX
