@@ -6,6 +6,7 @@ TagManager:
   tags:
   - player
   - point 1
+  - DES
   layers:
   - Default
   - TransparentFX
