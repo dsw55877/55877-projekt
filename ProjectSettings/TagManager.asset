@@ -8,6 +8,9 @@ TagManager:
   - point 1
   - coin
   - enemy
+  - dmg
+  - weapon dmg
+  - crate
   layers:
   - Default
   - TransparentFX
